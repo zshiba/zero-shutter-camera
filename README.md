@@ -1,1 +1,2 @@
-# zero-shutter-camera
+# Zero Shutter Camera
+(Updating repos...)
