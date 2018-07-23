@@ -53,19 +53,19 @@ Send information as the defined string format to Glass over Bluetooth connection
 (on Android device)
 1. Unpair a sender device from Glass
 
-(on Glass)
-2. Launch ZeroShutterCamera app
-3. Move to the right live card showing the connected Bluetooth device, which is currently None
-4. Move to the Bluetooth card under the Settings live card
-5. If Glass has already paired an Android device, tap once and choose "Forget"
+(on Glass)  
+2. Launch ZeroShutterCamera app  
+3. Move to the right live card showing the connected Bluetooth device, which is currently None  
+4. Move to the Bluetooth card under the Settings live card  
+5. If Glass has already paired an Android device, tap once and choose "Forget"  
 6. Tap once on the Bluetooth card, and then select "Android". While Glass is showing the instruction, move to Step. 5
 
-(on Android device)
-7. Launch an app that sends information to Glass
-8. Pair to Glass when a popup window asking to pair to Glass
+(on Android device)  
+7. Launch an app that sends information to Glass  
+8. Pair to Glass when a popup window asking to pair to Glass  
 
-(on Glass)
-9. Make sure Glass is showing the same message to pair to the Android device
+(on Glass)  
+9. Make sure Glass is showing the same message to pair to the Android device  
 10. Make sure Glass is showing the sender device's name and received infromation
 
 
