@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- (reference) https://developers.google.com/glass/design/style/metrics-grids -->
+    <dimen name="card_width">640px</dimen>
+    <dimen name="card_height">360px</dimen>
+    <dimen name="card_horizontal_padding">40px</dimen>
+    <dimen name="card_vertical_padding">40px</dimen>
+    <dimen name="main_content_width">560px</dimen>
+    <dimen name="main_content_height">240px</dimen>
+    <dimen name="footer_width">560px</dimen>
+    <dimen name="footer_height">40px</dimen>
+
+    <!-- (reference) https://developers.google.com/glass/develop/gdk/ui-widgets -->
+    <dimen name="glass_card_margin">40px</dimen>
+    <dimen name="glass_card_footer_margin">33px</dimen>
+    <dimen name="glass_card_two_column_margin">30px</dimen>
+    <dimen name="glass_card_body_height">240px</dimen>
+    <dimen name="glass_card_left_column_width">200px</dimen>
+    <dimen name="glass_card_left_column_mergin">10px</dimen>
+
+</resources>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.zshiba.android.glass.zeroshuttercamera"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="19"
+        android:targetSdkVersion="19" />
+
+    <uses-feature android:name="android.hardware.bluetooth" />
+
+    <uses-permission
+        android:name="android.permission.CAMERA" />
+    <uses-permission
+        android:name="com.google.android.glass.permission.DEVELOPMENT" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_camera_50"
+        android:label="@string/app_name" >
+
+        <activity
+            android:name="com.zshiba.android.glass.zeroshuttercamera.ZSMenuActivity"
+            android:label="@string/app_name"
+            android:theme="@style/MenuTheme" >
+        </activity>
+
+        <activity
+            android:name="com.zshiba.android.glass.zeroshuttercamera.ZSPhotographerMenuActivity"
+            android:label="@string/app_name"
+            android:theme="@style/MenuTheme" >
+        </activity>
+
+        <service
+            android:name="com.zshiba.android.glass.zeroshuttercamera.ZSPhotographerService"
+            android:label="@string/app_name"
+            android:enabled="true"
+            android:exported="false" >
+        </service>
+
+        <service
+            android:name="com.zshiba.android.glass.zeroshuttercamera.ZSCameraService"
+            android:label="@string/app_name"
+            android:icon="@drawable/ic_camera_50"
+            android:enabled="true"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="com.google.android.glass.action.VOICE_TRIGGER" />
+            </intent-filter>
+            <meta-data
+                android:name="com.google.android.glass.VoiceTrigger"
+                android:resource="@xml/voice_trigger_start" />
+        </service>
+    </application>
+
+</manifest>

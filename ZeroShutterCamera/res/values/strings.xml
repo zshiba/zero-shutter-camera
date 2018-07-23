@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ZeroShutterCamera</string>
+    <string name="zero_shutter_camera">zero shutter camera</string>
+
+    <string name="start">Start</string>
+    <string name="stop">Stop</string>
+    <string name="done">Done</string>
+    <string name="disconnect">Disconnect</string>
+    <string name="discoverable">Make Discoverable</string>
+
+    <string name="shutter_command_broadcast_receiver_state_label">Zero Shutter Camera</string>
+    <string name="shutter_command_broadcast_receiver_state_on">is ON</string>
+    <string name="shutter_command_broadcast_receiver_state_off">is OFF</string>
+    <string name="shutter_command_broadcast_receiver_since_label">since</string>
+    <string name="shutter_command_broadcast_receiver_since_blank"></string>
+
+    <string name="photographer_connected_bluetooth_device_label">Connected:</string>
+    <string name="photographer_connected_bluetooth_device_name_default">None</string>
+    <string name="photographer_connected_bluetooth_device_address_default">(xx:xx:xx:xx:xx:xx)</string>
+    <string name="photographer_received_data_label">Received (on):</string>
+    <string name="photographer_received_data_value_none">none</string>
+    <string name="photographer_received_data_on_none">()</string>
+
+    <string name="footer">Zero Shutter Camera</string>
+    <string name="footerTapForMenu">(Tap for menu)</string>
+
+</resources>
